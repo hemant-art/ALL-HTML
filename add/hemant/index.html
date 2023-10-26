@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+    <!-- element selecter -->
+    <style>
+
+         div{
+            /* background-color: red; */
+        }
+        /* class selecter */
+        .red{
+            background-color: red;
+        }
+        /* id selecter */
+        #green{
+            background-color: green;
+        }
+        /* child selectors */
+        div > p{
+            color: blue;
+            background-color: brown;
+        }
+        /* discendant selector */
+        div  p{
+            color: blue;
+            background-color: brown;
+        }
+        /* universal selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* psudo selector */
+        a:visited{
+            color: rgba(208, 223, 74, 0.418);
+        }
+        a:link{
+            color: rgb(40, 40, 165);
+        }
+        a:active{
+            background-color: red;
+        }
+        a:hover{
+            background-color: yellow;
+        }
+        p:first-child{
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="selector">
+        I am selectors
+    </div>
+    <div class="red">
+        i am dv
+    <article>
+        <p>
+            i am para in div
+        </p>
+    </article>
+    </div>
+    <div id="green">
+        i am another div
+    </div>
+    <a href="htps://www.google.com"> Go to Google</a>
+    <a href="htps://www.facebook.com"> Go to facebook</a>
+</body>
+</html>

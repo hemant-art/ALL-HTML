@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* The specificity of this selector is 1 */
+        h1{
+            color: white;
+        }
+         /* The specificity of this selector is 10 +1*/
+        h1.yello{
+            color: rgb(70, 70, 109);
+        }
+         /* The specificity of this selector is 10 */
+        .cred{
+            color: rgb(61, 61, 219);
+        }
+         /* The specificity of this selector is 10 */
+        .arua{
+            color: rgb(175, 116, 28);
+        }
+        /* This is the example of attribute selector. The specificity of this selector is 10 */
+        [data-x=a]{
+            color: maroon;
+        }
+         /* The specificity of this selector is 1+20+10+10+10 */
+        a.hemantclass.rohan-class[href]:hover{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <h1 class="yello cred arua" data-x="a">hello css</h1>
+    </div>
+</body>
+</html>
