@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Template</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .navbar{
+            width: 100%;
+            position: sticky;
+            top: 0px;
+            background-color: blueviolet;
+        }
+        header nav ul li{
+            text-decoration: none;
+            list-style-type: none;
+            padding: 10px;
+            font-weight: bolder;
+            display: inline-block;
+
+        }
+        a{
+            text-decoration: none;
+            color: rgb(114, 106, 224);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        a.hover{
+            background-color: red;
+            transition: all ease 0.5s;
+            color: rgb(80, 204, 117);
+
+        }
+        nav ul{
+            display: flex;
+            align-items: center;
+            background-color: rgb(175, 212, 141);
+        }
+        .boxes{
+            display: flex;
+            background-color: aqua;
+            width: 100%;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        main.box1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(156, 28, 60);
+            height: 30vh;
+            width: 200vh;
+            margin: 40px;
+            overflow: hidden;
+            border-radius: 20px;
+        }
+        p{
+            padding: 20px;
+        }
+        main.box2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(230, 125, 151);
+            height: 30vh;
+            width: 200vh;
+            margin: 40px;
+            overflow: hidden;
+            border-radius: 20px;
+        }
+        .container{
+            height: 40vh;
+            width: 100%;
+            background-color: greenyellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .welcome{
+            color: white;
+            display: flex;
+            background-color: black;
+            width: 800px;
+            height: 200px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 60px;
+           
+            font: size 30px; 
+            font-weight: 900;
+        }
+        footer{
+            height: 10vh;
+            background-color: black;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 30px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>About</li></a>
+                <a href="#"><li>Contact Us</li></a>
+            </ul>
+        </nav>
+    </header>
+    <div class="fixed-icon">
+
+    </div>
+    <main>
+        <div class="boxes">
+            <div class="box1">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero natus ducimus reiciendis accusamus. Doloremque, placeat reiciendis excepturi unde tenetur sunt perferendis? Obcaecati, voluptate maiores voluptates, assumenda voluptatum, quae rem neque debitis quas minima voluptatibus ipsam expedita sit? Excepturi officia dolorem aliquam tempore, et repellendus nobis?
+                </p>
+            </div>
+            <div class="box2">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, architecto, voluptate magni harum maxime laboriosam libero iusto iste itaque dolorum quaerat. Porro voluptatibus aut a numquam, dolorem nobis illum assumenda doloremque aperiam optio magnam adipisci quaerat architecto quas eum voluptates exercitationem, ut consectetur facere vero.
+                </p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="welcome">
+                <p>Wellcome to Sigma Web Development Express!</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>Made by Hemant Mohanty</p>
+        </div>
+    </footer>
+</body>
+</html>

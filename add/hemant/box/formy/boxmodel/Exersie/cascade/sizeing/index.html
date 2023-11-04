@@ -2,72 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sizing- px....</title>
+    <title>Selecter css</title>
     <style>
-        *{
-            margin: 0;
-            padding: 0;
+        /* box:first-child{
+            background-color: red;
+        } */
+        box::first-line{
+            color: yellow;
         }
-        html{
-            font-size: 12px;
-        }
-        .box{
-            box-sizing: border-box;
+        boxes *{
+            color: blue;
             border: 2px solid black;
-            /* width: 2048px; */
-            width: 80vw;
-            height: 10vh;
-            margin: auto;
-            background-color: yellow;
-        }
-        .containor{
-            box-sizing: border-box;
-            border: 2px solid black;
-            /* width: 2048px; */
-            width: 80vw;
-            /* height: 80vh; */
-            min-height: 80vh;
-            margin: 23px auto;
-            font-size: 18px;
-            background-color: yellow;
-        }
-        .containor > div{
-            font-size: 2rem;
-            border: 2px solid red;
-            width: 50%;
-        }
-        .mycont{
-           box-sizing: border-box ;
-           border: 2px solid black;
-           margin: 23px auto;
-            color: green;
-            font-size: 42px;
-            width: 80vw;
-        }
-        .containor > div >div{
-            border: 2px solid blue;
-            width: 50%;
         }
     </style>
 </head>
 <body>
-    <div class="box">
-        This is the box
-    </div>
-    <div class="containor">
-
-        <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quod dolor! Rem porro, odio corrupti quas, nobis, aliquam perspiciatis et laborum reiciendis consectetur ex? Quae assumenda ducimus natus beatae modi.
-            <div>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo tenetur molestias magni eius quo, provident doloremque similique voluptates dolor nobis deleniti! Praesentium, nihil?
-            </div>
-        </div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam esse accusantium est voluptatibus eius earum. Tempore autem possimus laudantium, vero nam ipsa natus quis et reiciendis veritatis voluptatum animi qui molestias dolore itaque! Dignissimos minima neque voluptas cum saepe illo nulla delectus deleniti! Iste ipsam illum quas ut sint illo dolores quia esse labore. Excepturi sint in numquam fugiat odio! Voluptatum animi, a repellendus quos soluta, accusamus commodi quia minima modi adipisci voluptates corrupti accusantium! Labore doloremque a rem reprehenderit illum ducimus quo, sapiente impedit obcaecati, iure iusto dolorem repudiandae qui quam, quis possimus. Sit, porro maiores? Aliquid, repellendus?
-    </div>
-    <div class="mycont">
-        This is another container
+    <div class="boxes">
+        <div class="box">I am First box</div>
+        <div class="box">Hay i am a box</div>
+        <div class="box">Hay i am a box</div>
     </div>
 </body>
 </html>
