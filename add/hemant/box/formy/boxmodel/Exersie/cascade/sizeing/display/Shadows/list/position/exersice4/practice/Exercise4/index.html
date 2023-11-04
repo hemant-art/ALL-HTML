@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multi coler website float and clear</title>
+    <style>
+        .cards{
+            border: 2px solid black;
+            display: flow-root;
+        }
+        .img{
+            float: right;
+        }
+        .card{
+            border: 2px solid red;
+        }
+        .card:nth-child(3){
+            background-color: aqua;
+            clear: both;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="cards">
+        <img  src="card.jpg" alt="" width="223">
+        <div class="card">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi quis quasi deserunt repellat soluta iste? Consequuntur cupiditate quia labore culpa atque incidunt temporibus? Impedit animi eum porro repudiandae qui iure error vitae ullam? Animi.
+        </div>
+        <div class="card">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem soluta voluptas iste temporibus rem, in dignissimos sint eos quos repudiandae dicta harum facere provident libero, laborum dolores ut repellat nesciunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus at facilis, sequi non minima repellat laudantium autem incidunt adipisci, eligendi iste harum unde.</div>
+        <div class="card">card 3</div>
+    </div>
+</body>
+</html>
